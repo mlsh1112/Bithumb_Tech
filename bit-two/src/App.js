@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import MyColor from './components/MyColor'
-
+import Test from './components/Test'
 export default class App extends Component {
   static defaultProps = {
     userID:'test',
@@ -33,6 +33,7 @@ export default class App extends Component {
       <div>
         <img src='images/flower.jpg' width='150'/>
         <MyColor></MyColor>
+        <Test></Test>
       </div>
     )
   }
